@@ -147,7 +147,7 @@ void print_hash(struct hash_item ordered[], int items_inserted){
             else{
                 pos = hash_tabela2(ordered[i].key);
             }
-            printf("%d, t%d, %d\n", ordered[i].key, ordered[i].tabela, pos);
+            printf("%d,T%d,%d\n", ordered[i].key, ordered[i].tabela, pos);
         }
     }
 }
